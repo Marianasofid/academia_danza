@@ -198,7 +198,7 @@
                 </h4>
 
                 <p class="text-gray-600">
-                    Colombia
+                    Colombia - San Gil
                 </p>
 
             </div>
