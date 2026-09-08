@@ -97,7 +97,7 @@ Registra las inscripciones de los estudiantes.
 
 ---
 
-# 📚 ÉPICAS E HISTORIAS DE USUARIO
+# ÉPICAS E HISTORIAS DE USUARIO
 
 Las épicas e historias de usuario del proyecto fueron definidas teniendo en cuenta
 las principales funciones que tendrá el sistema de Danza Viva Academy.

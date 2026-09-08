@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripciones | Danza Viva Academy</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-800">
+
+    <!-- ENCABEZADO -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 py-5">
+
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+
+                <!-- NOMBRE DE LA ACADEMIA -->
+                <div class="text-center md:text-left">
+                    <h1 class="text-2xl font-bold text-pink-600">
+                        Danza Viva Academy
+                    </h1>
+
+                    <p class="text-sm text-gray-500">
+                        Movimiento · Expresión · Pasión
+                    </p>
+                </div>
+
+                <!-- MENÚ -->
+                <nav>
+                    <ul class="flex flex-wrap justify-center gap-5 text-sm font-medium">
+
+                        <li>
+                            <a href="index.php"
+                               class="text-gray-600 hover:text-pink-600 transition">
+                                Inicio
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="clases.php"
+                               class="text-gray-600 hover:text-pink-600 transition">
+                                Clases
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="horarios.php"
+                               class="text-gray-600 hover:text-pink-600 transition">
+                                Horarios
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="inscripciones.php"
+                               class="text-pink-600 font-semibold">
+                                Inscripciones
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contacto.php"
+                               class="text-gray-600 hover:text-pink-600 transition">
+                                Contacto
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+
+    <!-- PRESENTACIÓN -->
+    <section class="bg-pink-50 py-16">
+
+        <div class="max-w-5xl mx-auto px-6 text-center">
+
+            <p class="text-pink-600 font-semibold tracking-wide uppercase text-sm mb-3">
+                Danza Viva Academy
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-5">
+                Inscripciones
+            </h2>
+
+            <p class="text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                Elige la clase que quieres realizar y forma parte de
+                Danza Viva Academy.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- INFORMACIÓN -->
+    <main class="max-w-5xl mx-auto px-6 py-16">
+
+        <div class="text-center mb-12">
+
+            <p class="text-pink-600 font-semibold text-sm uppercase tracking-wide">
+                Da el primer paso
+            </p>
+
+            <h3 class="text-3xl font-bold text-gray-900 mt-2">
+                Elige tu clase de danza
+            </h3>
+
+            <p class="text-gray-600 mt-3 max-w-2xl mx-auto">
+                Selecciona una de nuestras clases disponibles.
+                Más adelante podrás realizar tu inscripción directamente
+                desde el sistema.
+            </p>
+
+        </div>
+
+
+        <!-- CLASES -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+
+            <!-- CUMBIA -->
+            <div class="bg-white border border-gray-100 rounded-2xl shadow-md overflow-hidden">
+
+                <div class="bg-pink-600 px-6 py-4">
+                    <h4 class="text-xl font-bold text-white">
+                        Cumbia
+                    </h4>
+                </div>
+
+                <div class="p-6">
+
+                    <p class="text-gray-600 mb-5">
+                        Clase de nivel principiante para aprender
+                        los pasos y movimientos básicos de la cumbia.
+                    </p>
+
+                    <div class="flex justify-between items-center">
+
+                        <span class="text-sm text-gray-500">
+                            Principiante
+                        </span>
+
+                        <a href="horarios.php"
+                           class="bg-pink-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-pink-700 transition">
+                            Ver horario
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- BAMBUCO -->
+            <div class="bg-white border border-gray-100 rounded-2xl shadow-md overflow-hidden">
+
+                <div class="bg-pink-600 px-6 py-4">
+                    <h4 class="text-xl font-bold text-white">
+                        Bambuco
+                    </h4>
+                </div>
+
+                <div class="p-6">
+
+                    <p class="text-gray-600 mb-5">
+                        Clase de nivel principiante enfocada en conocer
+                        los movimientos y características del bambuco.
+                    </p>
+
+                    <div class="flex justify-between items-center">
+
+                        <span class="text-sm text-gray-500">
+                            Principiante
+                        </span>
+
+                        <a href="horarios.php"
+                           class="bg-pink-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-pink-700 transition">
+                            Ver horario
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- SANJUANERO -->
+            <div class="bg-white border border-gray-100 rounded-2xl shadow-md overflow-hidden">
+
+                <div class="bg-pink-600 px-6 py-4">
+                    <h4 class="text-xl font-bold text-white">
+                        Sanjuanero
+                    </h4>
+                </div>
+
+                <div class="p-6">
+
+                    <p class="text-gray-600 mb-5">
+                        Clase de nivel intermedio para continuar
+                        desarrollando técnicas y movimientos del sanjuanero.
+                    </p>
+
+                    <div class="flex justify-between items-center">
+
+                        <span class="text-sm text-gray-500">
+                            Intermedio
+                        </span>
+
+                        <a href="horarios.php"
+                           class="bg-pink-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-pink-700 transition">
+                            Ver horario
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- DANZA ANTIOQUEÑA -->
+            <div class="bg-white border border-gray-100 rounded-2xl shadow-md overflow-hidden">
+
+                <div class="bg-pink-600 px-6 py-4">
+                    <h4 class="text-xl font-bold text-white">
+                        Danza antioqueña
+                    </h4>
+                </div>
+
+                <div class="p-6">
+
+                    <p class="text-gray-600 mb-5">
+                        Clase de nivel principiante para conocer
+                        los pasos tradicionales de la danza antioqueña.
+                    </p>
+
+                    <div class="flex justify-between items-center">
+
+                        <span class="text-sm text-gray-500">
+                            Principiante
+                        </span>
+
+                        <a href="horarios.php"
+                           class="bg-pink-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-pink-700 transition">
+                            Ver horario
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- DANZA URBANA -->
+            <div class="bg-white border border-gray-100 rounded-2xl shadow-md overflow-hidden">
+
+                <div class="bg-pink-600 px-6 py-4">
+                    <h4 class="text-xl font-bold text-white">
+                        Danza urbana
+                    </h4>
+                </div>
+
+                <div class="p-6">
+
+                    <p class="text-gray-600 mb-5">
+                        Clase de nivel intermedio para practicar
+                        diferentes movimientos y estilos de danza urbana.
+                    </p>
+
+                    <div class="flex justify-between items-center">
+
+                        <span class="text-sm text-gray-500">
+                            Intermedio
+                        </span>
+
+                        <a href="horarios.php"
+                           class="bg-pink-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-pink-700 transition">
+                            Ver horario
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- CARRANGA -->
+            <div class="bg-white border border-gray-100 rounded-2xl shadow-md overflow-hidden">
+
+                <div class="bg-pink-600 px-6 py-4">
+                    <h4 class="text-xl font-bold text-white">
+                        Carranga
+                    </h4>
+                </div>
+
+                <div class="p-6">
+
+                    <p class="text-gray-600 mb-5">
+                        Clase de nivel principiante para aprender
+                        movimientos relacionados con la danza carranguera.
+                    </p>
+
+                    <div class="flex justify-between items-center">
+
+                        <span class="text-sm text-gray-500">
+                            Principiante
+                        </span>
+
+                        <a href="horarios.php"
+                           class="bg-pink-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-pink-700 transition">
+                            Ver horario
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- AVISO -->
+        <div class="mt-12 bg-gray-50 rounded-2xl p-8 text-center">
+
+            <h3 class="text-xl font-bold text-gray-900 mb-3">
+                ¿Ya tienes una cuenta?
+            </h3>
+
+            <p class="text-gray-600 mb-6">
+                Para realizar una inscripción será necesario iniciar sesión
+                en el sistema.
+            </p>
+
+            <a href="login.php"
+               class="inline-block bg-pink-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-pink-700 transition">
+                Iniciar sesión
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="bg-gray-900 text-white py-8">
+
+        <div class="max-w-6xl mx-auto px-6 text-center">
+
+            <p class="text-sm text-gray-400">
+                © 2032 Danza Viva Academy
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
