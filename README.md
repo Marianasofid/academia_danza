@@ -276,7 +276,7 @@ las principales funciones que tendrá el sistema de Danza Viva Academy.
 
 ---
 
-# 🗃️ DIAGRAMAS DE LA BASE DE DATOS
+# DIAGRAMAS DE LA BASE DE DATOS
 
 ## 1. Modelo Entidad-Relación
 
